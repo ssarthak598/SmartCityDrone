@@ -1,9 +1,9 @@
-import requests, json, os, picamera
+import requests, json, os
 import urllib2
 import urllib
 
-subscription_key = "0bf8752660c0442fa6bcafc81354cc1e"
-vision_url = "https://southcentralus.api.cognitive.microsoft.com/vision/v1.0/an$
+subscription_key = "*******"
+vision_url = "https://*.api.cognitive.microsoft.com/vision/v1.0/an$
 
 camera = picamera.PiCamera()
 camera.resolution = (1920, 1080)
